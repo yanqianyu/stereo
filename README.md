@@ -1,0 +1,8 @@
+# stereo
+版本：Xcode9.3.1 OpenCV3.3
+代码从保存路径的txt中获取图片途径从而读取图片，可以更改相关路径测试其他图片。
+1.单目相机标定与去除畸变 calibration_1
+left.zip中的图片路径保存在calibdataLeft.txt中，标定结果保存于calibration_1_result下的 calibration_result.txt中
+代码从保存路径的txt中获取图片途径从而读取图片，可以更改相关路径测试其他图片。
+2.双目立体匹配 stereoCalibration
+left.zip中的图片路径保存在calibdataLeft.txt中，right·.zip中的图片路径保存在calibdataRight.txt中，左右分别标定结果保存于calibration_result_left.txt、calibration_result_right.txt，相机间的旋转矩阵和平移矩阵保存在calibration_result_stereo.txt中。校正完成会即时显示深度图。
